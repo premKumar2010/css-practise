@@ -1,0 +1,35 @@
+#wrapper {
+    position: relative;
+    background-color: red;
+    height: 400px;
+}
+
+#wrapper #header {
+    height: 100px;
+    background-color: aqua;
+}
+
+#wrapper #nav {
+    height: 50px;
+    background-color: blue;
+}
+
+#wrapper #article {
+    height: 200px;
+    width: 70%;
+    background-color: blueviolet;
+}
+
+#wrapper #aside {
+    position: absolute;
+    height: 200px;
+    width:30%;
+    background-color: rosybrown;
+    top:150px;
+    left:70%;
+}
+
+#wrapper #footer {
+    height: 50px;
+    background-color: chartreuse;
+}
